@@ -4,4 +4,5 @@ jobs:
   echo_hello_world:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello world"
+      - run: ls
+      - run: curl http://exmaple.com
